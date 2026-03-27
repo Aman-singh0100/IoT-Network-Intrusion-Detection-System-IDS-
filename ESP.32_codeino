@@ -53,7 +53,7 @@ void reconnectMQTT() {  // this function will now connected the esp to mqtt . so
 }
 
 // SETUP
-void setup() {  //it will run only after esp starts
+void setup() {  //it will run only after esp32 starts
   Serial.begin(115200);  // starts serial monitor communication
   delay(1000);
 
